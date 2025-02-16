@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css" >
+    <title>Calculator</title>
+</head>
+<body>
+
+    <div id="calculator">
+        <input id="display" readonly>
+
+        <div id="keys">
+            <button onclick="Adisplay('+')" class="opt-btn">+</button>
+            <button onclick="Adisplay('7')">7</button>
+            <button onclick="Adisplay('8')">8</button>
+            <button onclick="Adisplay('9')">9</button>
+            <button onclick="Adisplay('-')" class="opt-btn">-</button>
+            <button onclick="Adisplay('4')">4</button>
+            <button onclick="Adisplay('5')">5</button>
+            <button onclick="Adisplay('6')">6</button>
+            <button onclick="Adisplay('*')" class="opt-btn">*</button>
+            <button onclick="Adisplay('1')">1</button>
+            <button onclick="Adisplay('2')">2</button>
+            <button onclick="Adisplay('3')">3</button>
+            <button onclick="Adisplay('/')" class="opt-btn">/</button>
+
+            <button onclick="clearDisplay()" class="c-btn">C</button>
+            <button onclick="calculate()">=</button>
+        </div>
+
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
